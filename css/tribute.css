@@ -1,28 +1,39 @@
-<style>
-  .responsive {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-  }
+h1 {
+  font-family: Sans-serif;
+  font-size: 50px;
+  background-color: skyblue;
+}
+
+ #img-div {
+
+ background-color: lightgrey;
+  text-align: center;
+
+}
+
+ #image {
+
+  max-width: 200%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
 
  #tribute-link {
-   color: red;
+   color: blue;
    font-weight: bold;
  }
 
 
   #img-caption {
     font-size: 30px;
+    background-color: skyblue;
 
-    .center {
-      margin: auto;
-      width: 50%
-      padding: 10px;
-      text-align: center;
+
     }
-  }
 
-
-
-</style>
+#tribute-info {
+  font-size: 20px;
+  font-family: Helvetica;
+}
